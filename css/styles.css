@@ -1,0 +1,175 @@
+body {
+  color: #4d3e3e;
+  margin: 0;
+  /* MARK1: sets everything to the center that's in body element as long
+  as it doesn't have a width */
+  text-align: center;
+  font-family: sans-serif;
+  font-family: 'Zilla Slab', serif;
+}
+
+/* div {
+  height: 200px;
+  width: 200px;
+} */
+h1 {
+  /*font-size: 100% = 16px; therefore 90px/16 = 562.5% */
+  font-size: 5rem;
+  line-height: 2;
+  margin: 50px auto 0 auto;
+  font-family: 'Caveat', cursive;
+  color: #7d5a5a;
+  /* MARK2: and if it have a width, you can center it vertically or horizontally
+  and to center it horizontally, do the following:
+  width: 10%;
+  margin: 0 auto;
+  */
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: 'Tenali Ramakrishna', sans-serif;
+  color: #7d5a5a;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Tenali Ramakrishna', sans-serif;
+  color: #e19999;
+}
+
+hr{
+  border-style: dotted none none;
+  border-width: 5px;
+  border-color: #EAF6F6;
+  width: 5%;
+  margin: 100px auto;
+}
+
+p{
+    line-height: 2;
+}
+
+a {
+  color: #e19999;
+  font-family: 'Tenali Ramakrishna', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: white;
+}
+
+.top-container {
+  background-color: #f3e1e1;
+  /* efee9d; */
+  position: relative;
+  padding-top: 100px;
+}
+
+.profileImg {
+  width: 120px;
+  height: auto;
+}
+
+.middle-container{
+  margin: 100px 0;
+}
+
+.bottom-container {
+ background-color: #f3e1e1;
+ padding: 50px 0 20px;
+ }
+
+.coding {
+  width: 400px;
+  margin: auto;
+}
+
+.top-cloud {
+  width: 150px;
+  position: absolute;
+  right: 300px;
+  top: 30px;
+}
+
+/* .bottom-cloud {
+  width: 100px;
+  position: absolute;
+  left: 300px;
+  bottom: 350px;
+} */
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.emoji {
+  width: 50px;
+}
+
+.typingGif {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+/* .skill1-description{
+  clear: left;
+} */
+
+.comm {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+/* .skill2-description{
+  clear: right;
+} */
+
+.heartGif {
+  width: 5%;
+}
+
+.intro{
+  width: 30%;
+  margin: 40px auto 60px;
+}
+
+.contact-msg{
+  width: 40%;
+  margin: auto;
+}
+
+.copyright{
+  color: #d8b9c3;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.btn {
+  background: #E19999;
+  background-image: -webkit-linear-gradient(top, #E19999, #7D5A5A);
+  background-image: -moz-linear-gradient(top, #E19999, #7D5A5A);
+  background-image: -ms-linear-gradient(top, #E19999, #7D5A5A);
+  background-image: -o-linear-gradient(top, #E19999, #7D5A5A);
+  background-image: linear-gradient(to bottom, #E19999, #7D5A5A);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  color: #FFFFFF;
+  font-family: 'Tenali Ramakrishna', sans-serif;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #F1D1D1;
+  border: solid #F1D1D1 0px;
+  text-decoration: none;
+}
